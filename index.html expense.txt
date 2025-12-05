@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Expense Tracker</h2>
+
+        <div id="balance">
+            <h3>Your Balance</h3>
+            <h2 id="balanceAmount">₹0</h2>
+        </div>
+
+        <form id="form">
+            <input type="text" id="text" placeholder="Reason (e.g., Food)" />
+            <input type="number" id="amount" placeholder="Amount (+/-)" />
+            <button type="submit">Add Transaction</button>
+        </form>
+
+        <ul id="list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
